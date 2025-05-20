@@ -1,0 +1,789 @@
+/* Reset ************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar ************************/
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    /* Default background */
+    padding: 1rem 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+/* Navbar display flex && content center ************************/
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+/* Hover effect menu ************************/
+#navbar ul li a:hover {
+    background-color: white;
+    color: #f00303;
+    border-radius: 5px;
+}
+
+/* Section styles  scrolling &&   border 1px solid ************************/
+section {
+    height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+    background: #bbdeec;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Scroll active */
+#navbar.scrolled {
+    background-color: #25b4d8;
+}
+
+/* section Home Section ***********************/
+#home {
+    background-image: url("img/banner-bg.jpg");
+}
+
+.Banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.headingh2 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.intro-content {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.btn-div {
+    display: flex;
+    gap: 20px;
+}
+
+/* Banner-text container */
+.primary-button {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #25b4d8;
+    color: #fff;
+    text-transform: uppercase !important;
+    font-size: 13px;
+    width: 180px !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.secondary-button {
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+    background-color: #f2745f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* section services Section **********************/
+
+#services {
+    background-color: #367cb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+    padding: 80px 0px;
+    width: auto;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.Web {
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.We {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    width: 800px;
+    letter-spacing: 1px;
+}
+
+/* section about Section ************************/
+
+#about {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+    padding: 80px 0px;
+    width: auto;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.ab-text {
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.ab-content {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    width: 800px;
+    letter-spacing: 1px;
+}
+
+/* section contact Section ************************/
+
+#contact {
+    background-color: #25393e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+    padding: 80px 0px;
+    width: auto;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.Con-text {
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.Con-content {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    width: 800px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .service-item-third-service {
+        background-color: rgba(70, 186, 226, 0.75);
+        text-align: center;
+        /* margin: 0px -15px; */
+        padding: 120px 45px;
+
+    }
+
+    .Web {
+        margin-top: 0px;
+        font-size: 40px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .We {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .ab-text {
+        margin-top: 0px;
+        font-size: 40px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .ab-content {
+        margin-top: 15px;
+        font-size: 17px !important;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .Con-text {
+        margin-top: 0px;
+        font-size: 40px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Con-content {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    /* Banner-text container */
+    .Banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .primary-button {
+        padding: 13px 15px;
+        letter-spacing: 0.5px;
+        background-color: #25b4d8;
+        color: #fff;
+        text-transform: uppercase !important;
+        font-size: 13px;
+        width: 180px !important;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .secondary-button {
+        padding: 13px 20px;
+        letter-spacing: 0.5px;
+        background-color: #f2745f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .headingh2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content {
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .btn-div {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Web {
+        margin-top: 0px;
+        font-size: 44px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .We {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #fff;
+        width: auto !important;
+        letter-spacing: 1px;
+    }
+
+    .ab-text {
+        margin-top: 0px;
+        font-size: 44px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .ab-content {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .Con-text {
+        margin-top: 0px;
+        font-size: 44px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Con-content {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar ul li {
+        margin: 0 15px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        padding: 8px 12px;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    /* Banner-text container */
+    .Banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .primary-button {
+        padding: 13px 15px;
+        letter-spacing: 0.5px;
+        background-color: #25b4d8;
+        color: #fff;
+        text-transform: uppercase !important;
+        font-size: 13px;
+        width: 160px !important;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .secondary-button {
+        padding: 13px 20px;
+        letter-spacing: 0.5px;
+        background-color: #f2745f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .headingh2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content {
+        font-size: 45px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .btn-div {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Web {
+        margin-top: 0px;
+        font-size: 30px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .We {
+        margin-top: 15px;
+        font-size: 16px !important;
+        font-weight: normal;
+        color: #fff;
+        width: 800px;
+        letter-spacing: 1px;
+    }
+
+    .ab-text {
+        margin-top: 0px;
+        font-size: 30px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .ab-content {
+        margin-top: 15px;
+        font-size: 16px !important;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .Con-text {
+        margin-top: 0px;
+        font-size: 30px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Con-content {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar ul li {
+        margin: 0 15px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 8px 12px;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    /* Banner-text container */
+    .Banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .primary-button {
+        padding: 13px 15px;
+        letter-spacing: 0.5px;
+        background-color: #25b4d8;
+        color: #fff;
+        text-transform: uppercase !important;
+        font-size: 13px;
+        width: 150px !important;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .secondary-button {
+        padding: 13px 20px;
+        letter-spacing: 0.5px;
+        background-color: #f2745f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .headingh2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content {
+        font-size: 39px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .btn-div {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Web {
+        margin-top: 0px;
+        font-size: 30px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .We {
+        margin-top: 15px;
+        font-size: 14px !important;
+        font-weight: normal;
+        color: #fff;
+        width: 800px;
+        letter-spacing: 1px;
+    }
+
+
+    .ab-text {
+        margin-top: 0px;
+        font-size: 30px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .ab-content {
+        margin-top: 15px;
+        font-size: 14px !important;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .Con-text {
+        margin-top: 0px;
+        font-size: 30px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Con-content {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar ul li {
+        margin: 0 10px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 8px 12px;
+        transition: color 0.3s, background-color 0.3s;
+    }
+
+    /* Banner-text container */
+    .Banner-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .primary-button {
+        padding: 13px 13px;
+        letter-spacing: 0.5px;
+        background-color: #25b4d8;
+        color: #fff;
+        text-transform: uppercase !important;
+        font-size: 12px;
+        width: 140px !important;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .secondary-button {
+        padding: 13px 20px;
+        letter-spacing: 0.5px;
+        background-color: #f2745f;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .headingh2 {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro-content {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .btn-div {
+        display: flex;
+        gap: 20px;
+    }
+
+    .Web {
+        margin-top: 0px;
+        font-size: 25px !important;
+        font-weight: 300;
+        color: #fff;
+        width: auto;
+    }
+
+    .We {
+        margin-top: 15px;
+        font-size: 12px !important;
+        font-weight: normal;
+        color: #fff;
+        width: auto !important;
+        letter-spacing: 1px;
+    }
+
+    .ab-text {
+        margin-top: 0px;
+        font-size: 25px !important;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .ab-content {
+        margin-top: 15px;
+        font-size: 12px !important;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+
+    .Con-text {
+        margin-top: 0px;
+        font-size: 25px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .Con-content {
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: normal;
+        color: #fff;
+        width: auto;
+        letter-spacing: 1px;
+    }
+}
