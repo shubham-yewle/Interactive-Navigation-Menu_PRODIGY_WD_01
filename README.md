@@ -39,17 +39,17 @@ Interactive-Navigation-Menu/
 
 1. Clone the repository:
   
-     ```bash
-    https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
-    ```
+```bash
+https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
+```
 
 2. Navigate to the project directory:
    
-   ```bash
-   cd "Interactive Navigation Menu" PRODIGY_WD_01
-   ```
+```bash
+cd "Interactive Navigation Menu" PRODIGY_WD_01
+```
    
-4. Open `index.html` in your browser.
+3. Open `index.html` in your browser.
 
 👨‍💻 Author
 
