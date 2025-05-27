@@ -28,8 +28,8 @@ Interactive-Navigation-Menu/
 * How It Works
 
 * The navbar is fixed at the top and uses JavaScript to detect scroll position.
-* When the user scrolls down 50px or more, a `.scrolled` class is added to the navbar, changing its background.
-* Each menu item links to a section (`#home`, `#services`, `#about`, `#contact`) with a full-screen layout.
+* When the user scrolls down 50px or more, a .scrolled` class is added to the navbar, changing its background.
+* Each menu item links to a section (#home, #services, #about, #contact) with a full-screen layout.
 * CSS media queries handle responsiveness for different devices.
 
 📦 Setup
@@ -44,5 +44,5 @@ Interactive-Navigation-Menu/
 
 Shubham Yewle
 * LinkedIn - Profile URL : https://www.linkedin.com/in/shubham-yewle-841559310
-* | [GitHub](#)
+* GitHub - Profile URL : https://github.com/shubham-yewle
 * | [Portfolio](#)
