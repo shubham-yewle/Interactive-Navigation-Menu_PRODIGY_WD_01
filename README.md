@@ -4,11 +4,11 @@ This project is a simple and clean interactive navigation menu built with HTML, 
 
 🚀 Features
 
-. Fixed navigation bar with smooth scrolling
-. Stylish and responsive design
-. Scroll-based navbar background color change
-. Four sections: Home, Services, About, and Contact
-. Optimized for various screen sizes (desktop, tablet, mobile)
+* Fixed navigation bar with smooth scrolling
+* Stylish and responsive design
+* Scroll-based navbar background color change
+* Four sections: Home, Services, About, and Contact
+* Optimized for various screen sizes (desktop, tablet, mobile)
 
 🛠️ Technologies Used
 
@@ -34,25 +34,21 @@ Interactive-Navigation-Menu/
 
 📸 Preview
 
-## 📦 Setup
+📦 Setup
 
 1. Clone the repository:
+   
+https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
 
-   ```bash
-   git clone https://github.com/yourusername/Interactive-Navigation-Menu.git
-   ```
 2. Navigate to the project directory:
 
-   ```bash
-   cd Interactive-Navigation-Menu
-   ```
-3. Open `index.html` in your browser.
+Interactive-Navigation-Menu
+   
+3. Open index.html in your browser.
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-* **Shubham Yewle**
-* [LinkedIn](#) | [GitHub](#) | [Portfolio](#)
-
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
+Shubham Yewle
+* LinkedIn - Profile URL : https://www.linkedin.com/in/shubham-yewle-841559310
+* | [GitHub](#)
+* | [Portfolio](#)
