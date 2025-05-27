@@ -32,17 +32,15 @@ Interactive-Navigation-Menu/
 * Each menu item links to a section (`#home`, `#services`, `#about`, `#contact`) with a full-screen layout.
 * CSS media queries handle responsiveness for different devices.
 
-📸 Preview
-
 📦 Setup
 
 1. Clone the repository:
    
-https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
+   https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
 
 2. Navigate to the project directory:
 
-Interactive-Navigation-Menu
+   Interactive-Navigation-Menu
    
 3. Open index.html in your browser.
 
