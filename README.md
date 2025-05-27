@@ -43,9 +43,12 @@ Interactive-Navigation-Menu/
     https://github.com/shubham-yewle/Interactive-Navigation-Menu_PRODIGY_WD_01.git
     ```
 
-2. Navigate to the project directory: Interactive-Navigation-Menu
+2. Navigate to the project directory:
+   ```bash
+   cd Interactive-Navigation-Menu
+   ```
    
-5. Open index.html in your browser.
+5. Open `index.html` in your browser.
 
 👨‍💻 Author
 
