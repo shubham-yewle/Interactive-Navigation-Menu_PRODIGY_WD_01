@@ -1,5 +1,4 @@
 # Interactive-Navigation-Menu_PRODIGY_WD_01
-# Interactive Navigation Menu
 
 This project is a simple and clean **interactive navigation menu** built with HTML, CSS, and JavaScript. It features a fixed navbar that changes style upon scrolling and links to different sections of the page.
 
