@@ -46,7 +46,8 @@ Interactive-Navigation-Menu/
 2. Navigate to the project directory:
    
    ```bash
-   cd PRODIGY_WD_01
+   cd cd "Interactive Navigation Menu"
+   PRODIGY_WD_01
    ```
    
 4. Open `index.html` in your browser.
