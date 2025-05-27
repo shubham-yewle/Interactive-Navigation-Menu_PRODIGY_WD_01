@@ -44,11 +44,12 @@ Interactive-Navigation-Menu/
     ```
 
 2. Navigate to the project directory:
+   
    ```bash
    cd Interactive-Navigation-Menu
    ```
    
-5. Open `index.html` in your browser.
+4. Open `index.html` in your browser.
 
 👨‍💻 Author
 
