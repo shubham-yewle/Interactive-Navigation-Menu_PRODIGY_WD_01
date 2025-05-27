@@ -16,14 +16,17 @@ This project is a simple and clean interactive navigation menu built with HTML, 
 * CSS3 (with media queries for responsiveness)
 * JavaScript (scroll event listener)
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 Interactive-Navigation-Menu/
 ├── index.html
 ├── style.css
 ├── script_01.js
 └── img/
     └── banner-bg.jpg
+```
+
 
 * How It Works
 
