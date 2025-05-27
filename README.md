@@ -46,7 +46,7 @@ Interactive-Navigation-Menu/
 2. Navigate to the project directory:
    
    ```bash
-   cd cd "Interactive Navigation Menu"
+   cd "Interactive Navigation Menu"
    PRODIGY_WD_01
    ```
    
